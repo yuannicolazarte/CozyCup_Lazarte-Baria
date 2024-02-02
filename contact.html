@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="contact.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;600&family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-KyZXEAg3QhqLMpG8r+Knujsl5+z0I5t9iDwEAqBAdvv6aK47FWEc4Sf47g+1p2j7tK7NPEFl+Q8ne3ft9PxpijA==" crossorigin="anonymous" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Merienda:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Contact</title>
+
+</head>
+<body>
+    <!-- Header with navigation links -->
+    <header>
+        <div >
+            <img src="./assets/f0c72398992947d797061f9bcf06b0e9_1.webp" alt="logo" class="logo"> 
+            <h1>CozyCup Coffee House</h1>
+        </div>
+        
+        
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        
+    </header>
+    
+    <!-- Main content section -->
+    <div class="container">
+        <!-- Contact Information -->
+        <div>
+            <img src="./assets/undraw_online_friends_re_eqaj.svg" alt="contact pic" class="contactpic">
+        </div>
+        <section id="contact-info">
+            <h2>Contact Information</h2>
+            <p>Café Address: Santa Monica, Palawan</p>
+            <p>Phone Number: +63911238423</p>
+            <p>Email: info@cozycupcafe.com</p>
+        </section>
+        <section id="map">
+            
+            <h2>Map</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d477.4822172525695!2d118.73479758643657!3d9.784024907111483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sph!4v1706803703799!5m2!1sen!2sph" width="500" height="350" style="border: 1px solid white; border-radius: 10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <!-- Contact Form -->
+        <section id="contact-form">
+            <h2>For inquiries and reservation. Contact us</h2>
+            <form action="submit_contact.php" method="post">
+                <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-- Embedded Map -->
+        
+    </div>
+
+    <!-- Footer with navigation links -->
+    <footer>
+        <p>Follow us on social media:</p><a href="https://www.facebook.com/yourpage" target="_blank"></a>
+       
+        <div class="social-icons">
+            <a href="https://www.facebook.com/yourpage" target="_blank"><i class='bx bxl-meta'></i></a>
+            <a href="mailto:youremail@example.com"><i class='bx bxl-gmail'></i></a>
+            <a href="https://www.instagram.com/youraccount" target="_blank"><i class='bx bxl-instagram' ></i></a>
+        </div>
+        <div class="newsletter">
+            <h3>Sign up for our newsletter</h3>
+            <form action="#" method="post">
+                <input type="email" name="email" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        
+    </footer>
+</body>
+</html>

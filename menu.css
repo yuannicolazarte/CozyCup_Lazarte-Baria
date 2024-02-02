@@ -1,0 +1,199 @@
+body {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #141414;
+}
+
+
+.logo {
+    height: 5rem;
+    width: 5rem;
+    position: absolute;
+    margin-top: -14px;
+    left: 1%;
+}
+header h1 {
+    font-family: 'merienda', 'merienda';
+    position: absolute;
+    margin-top: 18px;
+    left: 15%;
+    width: 40rem;
+    transform: translate(-50%, -50%); /* Center the text */
+}
+
+header {
+    z-index: 3;
+    position: fixed;
+    width: 100%;
+}
+
+header, footer {
+    border-radius: 0px;
+background: #141414;
+box-shadow:  5px 5px 10px #080808,
+             -5px -5px 10px #202020;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+nav {
+    display: inline-block;
+    margin: 10px 0;
+}
+nav a {
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: #ec7063
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    transition: color 0.3s ease;
+}
+
+nav a:hover {
+    color: #999999;
+}
+
+
+footer {
+    bottom: 0;
+    width: 100%;
+}
+footer i {
+    font-size: 2rem;
+    color: #fff;
+}
+
+form input {
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+form button {
+    cursor: pointer;
+    background-color: #272727;
+    color: white;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: 'poppins', sans-serif;
+    border: none;
+    padding: 0 20px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+#menu-container {
+    margin: 50px;
+}
+
+.coffee-menu {
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pastry-menu {
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.menu-item {
+    background-color: #fff;
+    color: #333;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease;
+    text-align: center;
+    height: 430px;
+    width: 350px;
+}
+
+.menu-item:hover {
+    transform: scale(1.03);
+}
+
+p {
+    margin: 5px;
+}
+
+h3 {
+    color: #141414;
+}
+
+.text {
+    color: #555;
+    font-size: small;
+}
+
+
+.price {
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.menu-container button {
+    background-color: #141414;
+    border-radius: 15px;
+    width: 80%;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    text-decoration: none;
+    font: inherit;
+    outline: none;
+}
+
+
+.menu-image {
+    width: 250px;
+    height: 250px;
+    border-radius: 8px;
+}
+
+
+
+footer a:hover {
+    color: #ec7063;
+}
